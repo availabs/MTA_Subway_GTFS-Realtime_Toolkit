@@ -1,0 +1,25 @@
+{
+  "name": "NYCT_Subway_SIRI_API_Server",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Reads the NYCT Subway's GTFS-Realtime feed, creating an indexed JS object with accessor functions for each message.",
+  "keywords": [
+    "NYC",
+    "NYCT",
+    "MTA",
+    "Subway",
+    "GTFS-Realtime"
+  ],
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "protobufjs": "^4.0.0"
+  },
+  "scripts": {},
+  "main": "FeedReader.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/availabs/NYCT_Subway_GTFS-Realtime_Feed_Reader.git"
+  },
+  "author": "paultomchik",
+  "license": ""
+}
