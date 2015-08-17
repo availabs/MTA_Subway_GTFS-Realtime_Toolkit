@@ -10,11 +10,10 @@ var feedReader = require('../lib/GTFS-Realtime_FeedReader'),
 
 feedReader.configure({ apiKey: key, });
 feedReader.registerListener(listener);
-feedReader.start();
 
 
 function listener (msg) {
-    var obj = wrapper.newGTFS_Realtime_Object(msg);
+    var obj = wrapper.newGTFSRealtimeObject(msg);
 
     console.log(JSON.stringify(obj, null, '    '));
 }

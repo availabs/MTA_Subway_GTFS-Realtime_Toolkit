@@ -10,7 +10,6 @@ var fs         = require('fs'),
 
 feedReader.configure({ apiKey: key, });
 feedReader.registerListener(listener);
-feedReader.start();
 
 
 function listener (msg) {

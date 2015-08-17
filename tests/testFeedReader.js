@@ -10,7 +10,6 @@ var feedReader = require('../lib/GTFS-Realtime_FeedReader'),
 
 feedReader.configure({ apiKey: key, });
 feedReader.registerListener(listener);
-feedReader.start();
 
 
 function listener (msg) {
