@@ -8,7 +8,7 @@
  */
 
 module.exports = {
-    Wrapper             : require('./lib/Wrapper')                    ,
-    FeedReader          : require('GTFS-Realtime_Toolkit').FeedReader ,
-    ObjectStreamFactory : require('./lib/ObjectStreamFactory')        ,
+    Wrapper             : require('./lib/Wrapper')                                 ,
+    FeedReader          : require('GTFS-Realtime_Toolkit').FeedReader              ,
+    ObjectStreamFactory : require('./lib/ObjectStreamFactory').ObjectStreamFactory ,
 };
