@@ -1,0 +1,9 @@
+{
+  "libs": [
+    "lodash",
+    "jest"
+  ],
+  "plugins": {
+    "node": {}
+  }
+}

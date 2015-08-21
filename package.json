@@ -11,7 +11,7 @@
     "GTFS-Realtime"
   ],
   "dependencies": {
-    "GTFS-Realtime_Toolkit": "https://github.com/availabs/GTFS-Realtime_Toolkit/tarball/master",
+    "GTFS-Realtime_Toolkit": "file:../GTFS-Realtime_Toolkit",
     "lodash": "^3.10.1",
     "protobufjs": "^4.0.0"
   },
