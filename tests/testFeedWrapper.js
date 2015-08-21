@@ -3,12 +3,12 @@
 'use strict';
 
 
-var feedReader = require('../lib/GTFS-Realtime_FeedReader'),
-    wrapper    = require('../lib/GTFS-Realtime_Wrapper'),
-    key        = require('./mtaAPIKey');
+var feedReader = require('GTFS-Realtime_Toolkit').FeedReader.newFeedReader(),
+    wrapper    = require('../lib/Wrapper'),
+    config     = require('./config');
 
 
-feedReader.configure({ apiKey: key, });
+feedReader.configure(config);
 feedReader.registerListener(listener);
 
 
