@@ -3,10 +3,10 @@
 'use strict';
 
 
-var fs         = require('fs')                                ,
-    feedReader = require('../lib/FeedReader').newFeedReader() ,
-    wrapper    = require('../lib/Wrapper')                    ,
-    config     = require('./config')                          ;
+var fs         = require('fs')                                      ,
+    feedReader = require('GTFS-Realtime_Toolkit').FeedReader.newFeedReader() ,
+    wrapper    = require('../lib/Wrapper')                          ,
+    config     = require('./config')                                ;
 
 
 feedReader.configure(config);
