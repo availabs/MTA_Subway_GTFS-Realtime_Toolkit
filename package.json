@@ -11,13 +11,12 @@
     "GTFS-Realtime"
   ],
   "dependencies": {
-    "GTFS-Realtime_Toolkit": "file:../GTFS-Realtime_Toolkit",
+    "GTFS-Realtime_Toolkit": "https://github.com/availabs/GTFS-Realtime_Toolkit/tarball/master",
     "lodash": "^3.10.1",
-    "protobufjs": "^4.0.0",
-    "url": "git://github.com/availabs/GTFS-Realtime_Toolkit.git"
+    "protobufjs": "^4.0.0"
   },
   "scripts": {
-    "test" : "jest"
+    "test": "jest"
   },
   "main": "index.js",
   "repository": {
