@@ -1,5 +1,3 @@
-'use strict';
-
 var key           = require('./.apiKey'),
 
     url           = "http://datamine.mta.info/mta_esi.php?key=" + key,
@@ -9,4 +7,7 @@ var key           = require('./.apiKey'),
 module.exports = {
     feedURL       : url           ,
     protofilePath : protofilePath ,
+    readInterval  : 30000,
+    maxRetries    : 5,
+    retryInterval : 2000,
 };

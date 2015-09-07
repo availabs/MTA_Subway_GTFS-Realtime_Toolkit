@@ -3,17 +3,19 @@
 'use strict';
 
 
-var feedReader = require('GTFS-Realtime_Toolkit').FeedReader.newFeedReader(),
+var FeedReader = require('GTFS-Realtime_Toolkit').FeedReader,
     _          = require('lodash'),
 
-    config     = require('./config');
+    config     = require('./.feedReaderConfig'),
+
+    feedReader = new FeedReader(config);
 
 
-feedReader.configure(config);
 feedReader.registerListener(listener);
 
 
 function listener (msg) {
+    feedReader.removeListener(listener);
     console.log(_.filter(_.pluck(msg.entity, 'trip_update.trip.trip_id')));
 }
 

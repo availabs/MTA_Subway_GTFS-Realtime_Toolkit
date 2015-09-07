@@ -9,6 +9,5 @@
 
 module.exports = {
     Wrapper             : require('./lib/Wrapper')                    ,
-    WrapperStream       : require('./lib/WrapperStream')              ,
     FeedReader          : require('GTFS-Realtime_Toolkit').FeedReader ,
 };
