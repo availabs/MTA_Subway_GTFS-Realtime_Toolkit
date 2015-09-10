@@ -7,7 +7,7 @@ var key           = require('./.apiKey'),
 module.exports = {
     feedURL       : url           ,
     protofilePath : protofilePath ,
-    readInterval  : 30000,
+    readInterval  : 30,
     maxRetries    : 5,
-    retryInterval : 2000,
+    retryInterval : 2,
 };
