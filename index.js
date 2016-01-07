@@ -10,4 +10,5 @@
 module.exports = {
     Wrapper             : require('./lib/Wrapper')                    ,
     FeedReader          : require('GTFS-Realtime_Toolkit').FeedReader ,
+    TimeUtils           : require('GTFS-Realtime_Toolkit').TimeUtils  ,
 };
