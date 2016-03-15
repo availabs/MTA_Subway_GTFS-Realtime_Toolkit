@@ -1,3 +1,5 @@
+'use strict'; 
+
 /**
  *
  *
@@ -11,4 +13,5 @@ module.exports = {
     Wrapper             : require('./lib/Wrapper')                    ,
     FeedReader          : require('GTFS-Realtime_Toolkit').FeedReader ,
     TimeUtils           : require('GTFS-Realtime_Toolkit').TimeUtils  ,
+    ToolkitEventEmitter : require('GTFS-Realtime_Toolkit').ToolkitEventEmitter ,
 };
