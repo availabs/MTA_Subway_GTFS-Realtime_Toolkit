@@ -14,11 +14,13 @@
       "dependencies": {
         "colour": {
           "version": "0.7.1",
-          "from": "colour@latest"
+          "from": "colour@latest",
+          "resolved": "https://registry.npmjs.org/colour/-/colour-0.7.1.tgz"
         },
         "optjs": {
           "version": "3.2.2",
-          "from": "optjs@latest"
+          "from": "optjs@latest",
+          "resolved": "https://registry.npmjs.org/optjs/-/optjs-3.2.2.tgz"
         }
       }
     },
@@ -32,15 +34,10 @@
       "from": "brace-expansion@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.4.tgz"
     },
-    "bufferview": {
-      "version": "1.0.1",
-      "from": "bufferview@>=1.0.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/bufferview/-/bufferview-1.0.1.tgz"
-    },
     "bytebuffer": {
-      "version": "4.1.0",
-      "from": "bytebuffer@>=4.0.0 <5.0.0 >=4.1.0",
-      "resolved": "https://registry.npmjs.org/bytebuffer/-/bytebuffer-4.1.0.tgz"
+      "version": "5.0.1",
+      "from": "bytebuffer@>=5.0.0 <6.0.0",
+      "resolved": "https://registry.npmjs.org/bytebuffer/-/bytebuffer-5.0.1.tgz"
     },
     "camelcase": {
       "version": "2.1.1",
@@ -351,9 +348,9 @@
       "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
     },
     "long": {
-      "version": "2.4.0",
-      "from": "long@>=2.0.0 <3.0.0 >=2.3.0",
-      "resolved": "https://registry.npmjs.org/long/-/long-2.4.0.tgz"
+      "version": "3.1.0",
+      "from": "long@>=3.0.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/long/-/long-3.1.0.tgz"
     },
     "minimatch": {
       "version": "3.0.0",
@@ -381,9 +378,9 @@
       "resolved": "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.0.tgz"
     },
     "protobufjs": {
-      "version": "4.1.3",
-      "from": "protobufjs@>=4.0.0 <5.0.0",
-      "resolved": "https://registry.npmjs.org/protobufjs/-/protobufjs-4.1.3.tgz"
+      "version": "5.0.1",
+      "from": "protobufjs@latest",
+      "resolved": "https://registry.npmjs.org/protobufjs/-/protobufjs-5.0.1.tgz"
     },
     "string-width": {
       "version": "1.0.1",

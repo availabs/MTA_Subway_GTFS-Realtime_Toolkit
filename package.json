@@ -13,7 +13,7 @@
   "dependencies": {
     "GTFS-Realtime_Toolkit": "https://github.com/availabs/GTFS-Realtime_Toolkit/tarball/master",
     "lodash": "^3.10.1",
-    "protobufjs": "^4.0.0"
+    "protobufjs": "^5.0.1"
   },
   "scripts": {
     "test": "jest"
