@@ -63,8 +63,8 @@
     },
     "GTFS-Realtime_Toolkit": {
       "version": "0.0.0",
-      "from": "https://github.com/availabs/GTFS-Realtime_Toolkit/tarball/master",
-      "resolved": "https://github.com/availabs/GTFS-Realtime_Toolkit/tarball/master",
+      "from": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git",
+      "resolved": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git#0309230fd6a682cbff4f1728a340357973783a31",
       "dependencies": {
         "ansi-regex": {
           "version": "2.0.0",
