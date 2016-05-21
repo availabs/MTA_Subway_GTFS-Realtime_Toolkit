@@ -5,7 +5,7 @@
     "GTFS-Realtime_Toolkit": {
       "version": "0.0.0",
       "from": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git",
-      "resolved": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git#f0f787e511a7d22471c5af48ddc5517a51b75f20",
+      "resolved": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git#f50288af2dcebd4784a9a99c13190b55471100ff",
       "dependencies": {
         "ansi-regex": {
           "version": "2.0.0",
@@ -125,9 +125,9 @@
           "resolved": "https://registry.npmjs.org/moment/-/moment-2.13.0.tgz"
         },
         "moment-timezone": {
-          "version": "0.5.4",
-          "from": "moment-timezone@0.5.4",
-          "resolved": "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.4.tgz"
+          "version": "0.5.0",
+          "from": "moment-timezone@0.5.0",
+          "resolved": "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.0.tgz"
         },
         "number-is-nan": {
           "version": "1.0.0",
