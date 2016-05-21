@@ -4,7 +4,7 @@
   "dependencies": {
     "GTFS-Realtime_Toolkit": {
       "version": "0.0.0",
-      "from": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git#07cb098d3963f9b652f8fda21060dc05eac3791f",
+      "from": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git",
       "resolved": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git#07cb098d3963f9b652f8fda21060dc05eac3791f",
       "dependencies": {
         "ansi-regex": {
@@ -193,7 +193,7 @@
     },
     "lodash": {
       "version": "3.10.1",
-      "from": "lodash@>=3.10.1 <4.0.0",
+      "from": "lodash@3.10.1",
       "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
     }
   }

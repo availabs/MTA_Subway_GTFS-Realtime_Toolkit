@@ -12,7 +12,7 @@
   ],
   "dependencies": {
     "GTFS-Realtime_Toolkit": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git",
-    "lodash": "^3.10.1"
+    "lodash": "3.10.1"
   },
   "scripts": {},
   "main": "index.js",
