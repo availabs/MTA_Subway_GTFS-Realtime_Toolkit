@@ -5,7 +5,7 @@
     "GTFS-Realtime_Toolkit": {
       "version": "0.0.0",
       "from": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git",
-      "resolved": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git#07cb098d3963f9b652f8fda21060dc05eac3791f",
+      "resolved": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git#558b45e7d2b75b15647150f783fc71bd78637eac",
       "dependencies": {
         "ansi-regex": {
           "version": "2.0.0",
