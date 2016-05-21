@@ -5,7 +5,7 @@
     "GTFS-Realtime_Toolkit": {
       "version": "0.0.0",
       "from": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git",
-      "resolved": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git#558b45e7d2b75b15647150f783fc71bd78637eac",
+      "resolved": "git+https://github.com/availabs/GTFS-Realtime_Toolkit.git#f0f787e511a7d22471c5af48ddc5517a51b75f20",
       "dependencies": {
         "ansi-regex": {
           "version": "2.0.0",
@@ -19,12 +19,12 @@
           "dependencies": {
             "colour": {
               "version": "0.7.1",
-              "from": "colour@0.7.1",
+              "from": "colour@latest",
               "resolved": "https://registry.npmjs.org/colour/-/colour-0.7.1.tgz"
             },
             "optjs": {
               "version": "3.2.2",
-              "from": "optjs@3.2.2",
+              "from": "optjs@latest",
               "resolved": "https://registry.npmjs.org/optjs/-/optjs-3.2.2.tgz"
             }
           }
