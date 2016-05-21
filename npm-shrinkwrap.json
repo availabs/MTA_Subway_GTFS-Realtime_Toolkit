@@ -44,7 +44,8 @@
     },
     "colour": {
       "version": "0.7.1",
-      "from": "colour@latest"
+      "from": "colour@latest",
+      "resolved": "https://registry.npmjs.org/colour/-/colour-0.7.1.tgz"
     },
     "concat-map": {
       "version": "0.0.1",
@@ -297,7 +298,8 @@
     },
     "optjs": {
       "version": "3.2.2",
-      "from": "optjs@latest"
+      "from": "optjs@latest",
+      "resolved": "https://registry.npmjs.org/optjs/-/optjs-3.2.2.tgz"
     },
     "os-locale": {
       "version": "1.4.0",
